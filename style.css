@@ -1,0 +1,1101 @@
+@import url('https://fonts.cdnfonts.com/css/friendly-sunday-script');
+@import url('https://fonts.cdnfonts.com/css/nunito');
+@import url('impact.ttf');
+@import url('https://fonts.cdnfonts.com/css/impact');
+@import url('https://fonts.cdnfonts.com/css/peter-quincy');
+@import url('https://fonts.cdnfonts.com/css/selfworld');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.cdnfonts.com/css/derpache');
+body {
+
+	margin:0;
+	background-color: BLACK;
+		font-family: Rubik,sans-serif;
+}
+
+
+#hello p {
+	font-family: times new roman;
+	font-size: 200px;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+
+}
+
+#h {
+	background: linear-gradient(225deg, rgb(206, 255, 0), rgb(0, 164, 189), rgb(70, 251, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#e{
+	background: linear-gradient(225deg, rgb(255, 135, 0), rgb(189, 25, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#l{
+	background: linear-gradient(225deg, rgb(255, 135, 0), rgb(189, 0, 125));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#ll{
+	background: linear-gradient(225deg, rgb(82, 0, 255), rgb(189, 0, 125));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#o{
+	background: linear-gradient(225deg, rgb(0, 19, 255), rgb(0, 189, 173));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+
+
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+
+#topnav {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+
+#topnav {
+	overflow: hidden;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+    padding: 43px 20px;
+	text-align: center;
+	margin-bottom: 90px;
+	padding-top: 30px;
+}
+
+
+
+
+#logo {
+	text-decoration: none;
+	color: black;
+	 padding: 13px 16px;
+	 color: black;
+	font-family: 'Impact', sans-serif;
+	border-radius: 12px;
+	background: linear-gradient(45deg, #13547a, #80d0c7);
+	font-size: 70px;
+	text-align: center;
+
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+
+.navbar {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+
+.navbar {
+
+
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+      vertical-align:middle;
+	  text-align: center;
+}
+
+/* Стиль ссылок внутри панели навигации */
+.navbar a {
+  float: left;
+  display: block;
+  color: gray;
+
+  padding: 17px 60px;
+  text-decoration: none;
+  font-size: 90px;
+  text-align: center;
+}
+
+
+
+.navbar button {
+	border: none;
+	background: none;
+
+
+}
+
+
+#main {
+	margin: 20px;
+}
+
+#reklama {
+	text-align: center;
+}
+
+#reklama img {
+	border-radius: 38px;
+	transition: 0.3s;
+	margin-bottom: 12px;
+
+	margin-top: 5px;
+}
+
+
+#reklama a{
+	padding: 12px 12px;
+	margin-bottom: 12px;
+
+	margin-top: 5px;
+
+}
+
+
+
+
+#ogr {
+	text-align: center;
+}
+
+
+#ogr button {
+	background: none;
+	border: none;
+
+}
+
+#ganr button {
+	background: linear-gradient(180deg, rgb(84, 84, 84), rgb(34, 34, 34));
+	border: none;
+	border-radius: 9px;
+	padding: 0;
+
+	margin-bottom: 75px;
+}
+
+#book {
+	text-align: center;
+
+}
+#book h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 90px;
+	color: white;
+	font-family: times new roman;
+}
+
+#book a {
+	margin-top: 10px;
+	text-decoration: none;
+	color:white;
+	border-radius: 60px;
+	font-size: 50px;
+
+	padding: 15px 300px;
+	font-weight: 600;
+	width: 800px;
+	background: white;
+	color: black;
+	transition: 0.5s;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+}
+
+
+#book a:hover {
+
+}
+
+
+
+#opisbb a:active{
+
+	transform: translateY(0.1em);
+}
+
+#read {
+	width: 700px;
+}
+
+
+#obzt {
+	color: gray;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 0;
+	margin-left: 20px;
+	margin-right: 30px;
+
+}
+
+
+#opiknig {
+	color: white;
+	font-size: 40px;
+	font-family:times new roman;
+	margin-left: 20px;
+	width: 90%;
+}
+
+
+#obze {
+	color: white;
+	font-weight: 500;
+	font-family: Ribik;
+	font-size: 30px;
+}
+
+
+#obauth {
+	background-color: #111111;
+	padding-bottom: 10px;
+	padding-right: 10px;
+
+}
+
+#obauth h2 {
+	font-weight: 500;
+	margin: 0;
+	padding: 5px 5px;
+
+}
+
+
+
+#obauth a {
+	text-decoration: none;
+	color: white;
+}
+#textauth {
+	font-size: 50px ;
+	padding: 5px 5px;
+	font-family: times new roman;
+	color: white;
+}
+
+#obze a {
+	color: white;
+}
+
+
+
+
+
+#ganr {
+	text-align: center;
+	padding: 10px 10px;
+
+}
+
+#ganr button {
+	background: linear-gradient(180deg, rgb(84, 84, 84), rgb(34, 34, 34));
+	border: none;
+	border-radius: 27px;
+	padding: 0;
+
+
+}
+
+
+#ganr a {
+	color: white;
+	padding: 10px 22px;
+	font-size: 60px;
+	font-family: times new roman;
+	font-weight: 600;
+	text-decoration: none;
+	padding-left: 70px;
+}
+
+
+#ganr img {
+	border-radius: 27px;
+	margin: 0;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+}
+
+
+#bookinstr {
+	padding: 17px 17px;
+	text-align: center;
+}
+
+
+#bookinstr button {
+	background: none;
+	border: none;
+	color: white;
+	text-decoration: none;
+	padding: 17px 17px;
+
+}
+
+
+#bookinstr a {
+	font-size: 43px;
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	font-family: Rubik,sans-serif;
+
+}
+
+
+#bookinstr p {
+	margin: 0;
+	padding: 4px 4px;
+	font-family: sans-serif;
+
+}
+
+
+
+
+#yui img {
+	border-radius: 38px;
+}
+
+#genre {
+	padding: 15px 0px;
+}
+#genre button {
+	padding: 25px 25px;
+	font-size: 50px;
+	background-color: #111111;
+	border-radius: 22px;
+	color: white;
+	border: none;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+
+#genre a {
+	text-decoration: none;
+	color: white;
+}
+#author {
+
+	height: 305px;
+}
+
+
+#author a {
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+#textauth {
+	font-size: 34px;
+	padding: 20px 20px;
+}
+
+
+#athh {
+	color: white;
+	font-size: 40px;
+	margin: 10px;
+}
+
+#athh i {
+	color: gray;
+}
+
+#athh a {
+	color: white;
+	text-decoration: none;
+	background: none;
+	font-size: 40px;
+	padding: 0;
+}
+
+#photavtor {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+
+}
+#photavtor img{
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: -1px 15px 26px 0px rgba(0, 60, 107, 0.2);
+		
+}
+
+#rightoba {
+	color: white;
+	font-size: 40px;
+	margin: 0px 50px;
+	background: #111111;
+	padding: 19px 35px;
+	border-radius: 30px;
+	font-weight: 200;
+	box-shadow: -2px 4px 27px 1px rgba(91, 95, 97, 0.2);
+}
+
+#results {
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#results button {
+	background: none;
+	border: none;
+}
+
+#results img {
+	box-shadow: -3px 10px 24px 0px rgba(167, 167, 167, 0.2);
+}
+#rtyu {
+	margin-top: 10px;
+	text-decoration: none;
+	color:white;
+	border-radius: 50px;
+	font-size: 40px;
+	padding: 13px 45px;
+
+	font-weight: 600;
+
+	background: white;
+	color: black;
+	transition: 0.5s;
+
+	text-align: center;
+}
+
+#rtyu a{
+	text-decoration: none;
+	color: black;
+}
+
+
+#r {
+	padding-left: 40px;
+}
+
+#yui img {
+	border-radius: 38px;
+	padding: 10px 10px;
+}
+
+
+#yui a {
+	border-radius: 22px;
+}
+
+#yui2 img {
+	border-radius: 38px;
+	padding: 10px 10px
+}
+#form {
+	text-align: center;
+
+}
+#form input {
+	background-color: #111111;
+	font-size: 50px;
+	border: none;
+	padding: 15px 20px;
+	border-radius: 22px;
+	width: 90%;
+	color: white;
+}
+#popl {
+	margin: 20px;
+}
+#popl a {
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+
+
+	padding: 40px 35px;
+	width: 90%;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+
+#popl p {
+	width: 90%;
+	border-bottom: solid 1.5px gray;
+	padding-bottom: 32px;
+}
+
+
+
+
+
+#popl i {
+	color: gray;
+	padding-right: 30px;
+}
+
+#popl {
+	width: 90%;
+}
+
+
+
+#sett {
+	background-color: #111111;
+	border-radius: 20px;
+
+
+	color: white;
+}
+
+#sett p {
+	margin: 0;
+	padding: 12px 12px;
+	padding-top: 18px;
+	margin-left: 30px;
+	margin-top: 18px;
+	margin-right: 30px;
+	font-size: 35px;
+}
+
+
+#sett a {
+	text-decoration: none;
+	color: white;
+}
+
+#sette {
+	background-color: #111111;
+	border-radius: 20px;
+
+
+	color: white;
+}
+
+#sette p {
+	margin: 0;
+	padding: 12px 12px;
+	padding-top: 18px;
+	margin-left: 30px;
+	margin-top: 18px;
+	margin-right: 30px;
+	font-size: 45px;
+}
+
+
+#sette a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#partner button {
+	background: none;
+	border: none;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+
+#ipadob {
+	font-size: 70px;
+	text-align: left;
+	font-weight: 600;
+	margin: 0px 240px;
+}
+#colorovo1 {
+	background-image: linear-gradient(150deg,#702bfc,#b730ff);
+	  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#colorovo2 {
+	background-image: linear-gradient(150deg,#7d2cfe,#ea38ff);
+	  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#colorovo3 {
+	background-image: linear-gradient(150deg,#b830ff,#f05dff);
+	  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+#colorovo4 {
+background-image: linear-gradient(150deg,#e436ff,#ff5bae);
+  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#colorovo5 {
+background-image: linear-gradient(150deg,#fb42f0,#ff6b82);
+
+  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+#colorovo6 {
+background-image: linear-gradient(150deg,#ff629d,#ff7076);
+
+  -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+#withl {
+	font-family: 'Peter Quincy', sans-serif;
+	color: gray;
+	font-size: 50px;
+	margin:0;
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+
+.modal {
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    background-color: rgb(0, 0, 0, 0.8);
+  }
+.modal {
+	border: none;
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* фон */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in;
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+/* При отображении модального окно */
+.modal:target {
+
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 900px;
+      margin: 30px auto; /* отображение окна по центру */
+  }
+}
+/* Стили для блока с контентом окна */
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    border-radius: 30px;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+
+
+
+
+/* Стили заголовка окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+	color: white;
+	background: #111111;
+	   border-radius: 30px 30px 0px 0px;
+}
+
+
+
+
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 60px;
+    font-weight: 500;
+
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+       font-size: 60px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+	color: white;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+	font-size: 50px;
+	background: #111111;
+	color: white;
+	    border-radius: 0px 0px 30px 30px;
+		text-align: center;
+}
+
+#okno {
+	text-align: center;
+}
+#okno a {
+
+		margin-top: 10px;
+	text-decoration: none;
+	color:white;
+	border-radius: 60px;
+	font-size: 50px;
+	border: 5px solid white;
+	padding: 15px 236px;
+	font-weight: 600;
+	width: 800px;
+	color: white;
+
+	transition: 0.5s;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+
+}
+
+
+.modal-body button {
+	background: none;
+	border: none;
+	color: white;
+	padding: 20px 20px;
+
+}
+
+
+.modal-body a{
+	color: white;
+	text-decoration: none;
+	font-size: 55px;
+}
+
+
+#apple {
+	text-align: center;
+}
+
+
+#apple h1 {
+	margin: 0;
+	font-size: 65px;
+}
+
+#apple a {
+	color: #06c;
+	font-size: 65px;
+	text-decoration: none;
+}
+
+#apple a:hover {
+	text-decoration: underline;
+
+}
+
+#timecode {
+	margin: 0;
+	color: gray;
+	margin-left: 50px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
+#shapkal {
+	margin: 0;
+	color: white;
+	font-weight: 600;
+	font-size: 70px;
+	margin-left: 50px;
+}
+
+#text {
+	color: white;
+	font-size: 22px;
+	margin-left: 50px;
+	padding: 10px 10px;
+}
+
+li {
+	color: white;
+		margin-left: 50px;
+		padding: 10px 10px;
+		font-size: 35px;
+}
+
+#company {
+	margin-left: 50px;
+	float: right;
+}
+
+
+
+#company a {
+	text-decoration: none;
+	padding: 10px 10px;
+	margin-right: 30px;
+}
+
+
+#company {
+	color: white;
+}
+
+#applelogo {
+	font-size: 60px;
+}
+
+
+#textoi {
+	text-align: center;
+
+
+}
+
+
+#textoi p {
+	font-family: 'Derpache', sans-serif;
+	background: linear-gradient(45deg, #37ecba, #72afd3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+	margin: 0;
+	font-size:90px;
+}
+
+
+#smallbyt {
+	font-size: 30px;
+	margin: 0;
+}
+
+
+#aboi {
+	text-align: center;
+}
+#aboi i {
+	font-size: 70px;
+	margin-bottom: 8px;
+}
+
+#aboi button {
+	border: none;
+	background: none;
+	color: white;
+	font-size: 43px;
+	font-weight: 600;
+	padding: 10px 40px;
+
+}
+
+
+
+#dec button{
+	background: none;
+	border: none;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+
+#dec a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+#dec img {
+	border-radius: 27px;
+
+}
+
+#dec {
+	padding: 30px 30px;
+
+	text-align: center;
+}
+
+
+#dec p {
+	margin-bottom: 10px;
+}
+
+#dec i {
+	font-size: 55px;
+}
+
+
+#reddy {
+	color: red;
+	font-size: 20px;
+}
+
+
+#bacauthor img {
+	filter: blur(10px);
+}
+#aft {
+	text-align: center;
+}
+
+#aft button {
+	background: none;
+	border: none;
+	font-size: 35px;
+	color: white;
+	padding: 15px 15px;
+}
+
+#cetbut {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+
+#version {
+	padding:20px 20px;
+	
+}
+
+
+
+#version p {
+	color: WHITE;
+	font-family: Rubik,sans-serif;
+	margin: 0;
+	margin-left: 220px;
+}
+
+#version img {
+	border-radius: 27px;
+}
+
+#hey {
+	
+	font-size: 50px;
+}
+
+#hey2 {
+	font-size: 20px;
+}
+
+
+
+
+#settet {
+	background-color: #111111;
+	border-radius: 20px;
+
+
+	color: white;
+}
+
+#settet p {
+	padding: 12px 12px;
+
+}
+
+
+#settet a {
+	text-decoration: none;
+	color: white;
+}
+
+#vrtext {
+	color: white;
+	font-size: 20px;
+	margin: 20px 20px;
+}
+
